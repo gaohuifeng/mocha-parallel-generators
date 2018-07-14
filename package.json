@@ -13,12 +13,12 @@
   "devDependencies": {
     "mocha": "^5.2.0",
     "standard": "^11.0.1"
-  },    
+  },
   "standard": {
     "env": [
       "mocha"
     ]
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gaohuifeng/mocha-parallel-generators.git"
@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/gaohuifeng/mocha-parallel-generators/issues"
   },
-  "homepage": "https://github.com/gaohuifeng/mocha-parallel-generators#readme"
+  "homepage": "https://github.com/gaohuifeng/mocha-parallel-generators#readme",
+  "directories": {
+    "test": "test"
+  }
 }

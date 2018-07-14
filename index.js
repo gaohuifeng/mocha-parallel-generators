@@ -18,12 +18,13 @@ const patchArgs = (args) => {
 
 const patch = (method) => {
   const originalFn = global[method]
-  global[method] = function (...args) {
-    return originalFn.apply(null, patchArgs(args))
+  global[method] = function () {
+    // function(...args) not support node < 6 ,here use [].slice.call(arguments)
+    return originalFn.apply(null, patchArgs([].slice.call(arguments)))
   }
   if (method === 'it') {
-    global.it.only = function (...args) {
-      return originalFn.only.apply(null, patchArgs(args))
+    global.it.only = function () {
+      return originalFn.only.apply(null, patchArgs([].slice.call(arguments)))
     }
   }
 }
