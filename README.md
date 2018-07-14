@@ -13,7 +13,6 @@ It is based on [Co Mocha](https://github.com/blakeembrey/co-mocha) and [Mocha Pa
 ```
 npm install --save-dev mocha-parallel-generators
 npm install --save-dev mocha mocha-parallel-tests
-
 ```
 
 
