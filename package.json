@@ -1,27 +1,18 @@
 {
   "name": "mocha-parallel-generators",
-  "version": "1.0.0",
-  "description": "support thunk",
+  "version": "1.0.1",
+  "description": "support thunk for mocha test",
   "main": "index.js",
+  "author": "gaohuifeng <773918831@qq.com>",
   "scripts": {
     "test": "standard && mocha test/index"
-  },
-  "dependencies": {
-    "is-generator": "^1.0.3",
-    "thunks": "^4.9.2"
-  },
-  "devDependencies": {
-    "mocha": "^5.2.0",
-    "standard": "^11.0.1"
-  },
-  "standard": {
-    "env": [
-      "mocha"
-    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gaohuifeng/mocha-parallel-generators.git"
+  },
+  "engines": {
+    "node": ">=1"
   },
   "keywords": [
     "mocha",
@@ -29,7 +20,23 @@
     "thunk",
     "mocha parallel"
   ],
-  "author": "gaohuifeng <773918831@qq.com>",
+  "dependencies": {
+    "is-generator": "^1.0.3",
+    "thunks": "^4.7.5"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1",
+    "thunks": "^4.9.2"
+  },
+  "peerDependencies": {
+    "mocha": ">=2 || >=3.0"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gaohuifeng/mocha-parallel-generators/issues"

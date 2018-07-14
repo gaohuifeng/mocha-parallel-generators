@@ -15,7 +15,6 @@ describe('thunk-mocha', function () {
 
   // support simple sync test
   after(function () {
-    console.log(result)
     assert.deepEqual(result, [
       'before',
       'beforeEach',
