@@ -35,7 +35,7 @@ describe('Array', function() {
 
 ### CLI
 ```
-./node_modules/mocha-parallel-tests/dist/bin/cli.js test/test.js 
+./node_modules/mocha-parallel-tests*/dist/bin/cli.js test/test.js 
 ```
 
 > see more [Mocha Parallel Tests CLI](https://github.com/mocha-parallel/mocha-parallel-tests/blob/master/README.md#cli)
