@@ -1,0 +1,38 @@
+{
+  "name": "mocha-parallel-generators",
+  "version": "1.0.0",
+  "description": "support thunk",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test/index"
+  },
+  "dependencies": {
+    "is-generator": "^1.0.3",
+    "thunks": "^4.9.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  },    
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaohuifeng/mocha-parallel-generators.git"
+  },
+  "keywords": [
+    "mocha",
+    "mocha parallel generators",
+    "thunk",
+    "mocha parallel"
+  ],
+  "author": "gaohuifeng <773918831@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaohuifeng/mocha-parallel-generators/issues"
+  },
+  "homepage": "https://github.com/gaohuifeng/mocha-parallel-generators#readme"
+}
