@@ -14,8 +14,7 @@ It is based on [Co Mocha](https://github.com/blakeembrey/co-mocha) and [Mocha Pa
 ## Installation
 
 ```
-npm install --save-dev mocha-parallel-generators
-npm install --save-dev mocha mocha-parallel-tests
+npm install --save-dev mocha mocha-parallel-tests mocha-parallel-generators
 ```
 
 
