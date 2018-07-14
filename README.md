@@ -1,4 +1,7 @@
 # mocha-parallel-generators
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads][downloads-image]][downloads-url]
 
 - executes each of your test files in a separate process  
 - maintain the output structure of mocha
@@ -43,3 +46,15 @@ describe('Array', function() {
 
 ## Comparison with `Co Mocha`
 [Co Mocha](https://github.com/blakeembrey/co-mocha) is a mocha patch which allows you to run genarator-style mocha test.But it doesn't support thunk-style mocha test and it only yield a function, promise, generator, array, or object, not constant such as `yield "123"` or `yield 123`.This module can support these and it is base on [thunks](https://github.com/thunks/thunks).
+
+
+
+[npm-url]: https://npmjs.org/package/mocha-parallel-generators
+[npm-image]: http://img.shields.io/npm/v/mocha-parallel-generators.svg
+
+[travis-url]: https://travis-ci.org/gaohuifeng/mocha-parallel-generators
+[travis-image]: https://travis-ci.org/gaohuifeng/mocha-parallel-generators.svg?branch=master
+
+[downloads-url]: https://npmjs.org/package/mocha-parallel-generators
+[downloads-image]: https://img.shields.io/github/downloads/atom/atom/latest/total.svg
+
